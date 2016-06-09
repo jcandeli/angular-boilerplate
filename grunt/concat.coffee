@@ -11,5 +11,5 @@ module.exports =
     css:
         files:
             '<%= pkg.dest %>/css/vendor.min.css': [
-                '<%= pkg.vendor %>/bootstrap/dist/css/bootstrap-theme.min.css'
+                '<%= pkg.vendor %>/bootstrap/dist/css/bootstrap.min.css'
             ]

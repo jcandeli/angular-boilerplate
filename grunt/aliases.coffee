@@ -3,4 +3,5 @@ module.exports =
         'sass'
         'concat'
         'browserify:bundle'
+        'copy'
     ]
