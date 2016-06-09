@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,YAAa;EACT,UAAU,EAAE,GAAG",
+"sources": ["../../src/modules/test-module/test-module.scss"],
+"names": [],
+"file": "test-module.css"
+}
