@@ -1,5 +1,8 @@
 # notifications for grunt only
 module.exports =
+    index:
+        options:
+            message: 'index.hml copied'
     ngtemplates:
         options:
             message: 'Templates compiled'
