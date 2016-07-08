@@ -1,8 +1,2 @@
-angular.module('templates').run(['$templateCache', function($templateCache) {
-  'use strict';
-
-  $templateCache.put('modules/test-module/test-module.html',
-    "<div class=\"test-module\">Test modules</div>"
-  );
-
-}]);
+angular.module("templates", []).run(["$templateCache", function($templateCache) {$templateCache.put("index.html","<!DOCTYPE html><html lang=\"en\"><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><title></title><link href=\"/css/vendor.min.css\" rel=\"stylesheet\" type=\"text/css\"><link href=\"/css/bundle.min.css\" rel=\"stylesheet\" type=\"text/css\"></head><body ng-app=\"app\"><div ui-view></div><script type=\"text/javascript\" src=\"/scripts/vendor.js\"></script><script type=\"text/javascript\" src=\"/scripts/bundle.js\"></script><script type=\"text/javascript\" src=\"/scripts/templates.js\"></script></body></html>");
+$templateCache.put("modules/test-module/test-module.html","<div class=\"test-module\">Test modules</div>");}]);
