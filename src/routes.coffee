@@ -1,8 +1,8 @@
-app.config([
+angular.module('app').config([
     '$stateProvider'
     '$urlRouterProvider'
     ($stateProvider, $urlRouterProvider) ->
-        $urlRouterProvider.otherwise('/testroute');
+        $urlRouterProvider.otherwise('/testroute')
 
         $stateProvider
             .state('testroute', {

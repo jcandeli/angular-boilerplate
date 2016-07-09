@@ -1,7 +1,7 @@
 angular.module('templates', [])
 angular.module('app', [])
 
-app = angular.module('app',
+angular.module('app',
     [
         'ui.router'
         'classy'
@@ -9,5 +9,3 @@ app = angular.module('app',
         'templates'
     ]
 )
-
-module.exports = app
