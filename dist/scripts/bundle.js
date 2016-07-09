@@ -1,18 +1,14 @@
 (function() {
-  var app;
-
   angular.module('templates', []);
 
   angular.module('app', []);
 
-  app = angular.module('app', ['ui.router', 'classy', 'ui.bootstrap', 'templates']);
-
-  module.exports = app;
+  angular.module('app', ['ui.router', 'classy', 'ui.bootstrap', 'templates']);
 
 }).call(this);
 
 (function() {
-  app.config([
+  angular.module('app').config([
     '$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider) {
       $urlRouterProvider.otherwise('/testroute');
       return $stateProvider.state('testroute', {
