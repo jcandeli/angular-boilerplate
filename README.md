@@ -4,8 +4,8 @@ My default boilerplate structure for an Angular project
 # Build
 * `npm install`
 * `bower install`
-* `grunt`
+* `gulp`
 
 #Run
-* `grunt connect`
+* `gulp connect`
 * go to `http://localhost:5001` in browser
